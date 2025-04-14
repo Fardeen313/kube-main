@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: 
+        image: 694540202488.dkr.ecr.ap-south-1.amazonaws.com/frontimage:latest
         ports:
         - containerPort: 80
 ---
