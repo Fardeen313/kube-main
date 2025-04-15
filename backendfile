@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: 694540202488.dkr.ecr.ap-south-1.amazonaws.com/backendimage:latest
+        image: pavanprsn/backendimage:latest
         ports:
         - containerPort: 80
 ---
