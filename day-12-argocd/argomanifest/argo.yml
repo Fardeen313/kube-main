@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/PBKPL-IT/kubernetes-Session.git
     targetRevision: HEAD
-    path: day-14-argocd
+    path: day-12-argocd
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
