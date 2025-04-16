@@ -18,7 +18,7 @@ spec:
       containers:
       - name: swiggy-app
         #image: veeranarni/hotstar:latest
-        image: pavanprsn/frontimage:latest
+        image: pavanprsn/backendimage:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
