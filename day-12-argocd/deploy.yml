@@ -5,7 +5,7 @@ metadata:
   labels:
     app: swiggy-app
 spec:
-  replicas: 20
+  replicas: 1
   selector:
     matchLabels:
       app: swiggy-app
@@ -18,7 +18,7 @@ spec:
       containers:
       - name: swiggy-app
         #image: veeranarni/hotstar:latest
-        image: nginx 
+        image: pavanprsn/frontimage:latest
         imagePullPolicy: "Always"
         ports:
         - containerPort: 3000
