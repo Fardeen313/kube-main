@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/CloudTechDevOps/Kubernetes.git
+    repoURL: https://github.com/PBKPL-IT/kubernetes-Session.git
     targetRevision: HEAD
     path: day-14-argocd
   destination: 
