@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: 545009838510.dkr.ecr.us-east-1.amazonaws.com/mario
         ports:
         - containerPort: 80
 ---
